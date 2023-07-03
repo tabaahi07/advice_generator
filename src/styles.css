@@ -1,0 +1,95 @@
+.App {
+    font-family: sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    width: 100vw;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+
+  .Content{
+    background-color: hsl(217, 19%, 24%);
+    width: 33vw;
+    height: 42vh;
+    position: relative;
+    top: 27vh ;
+    left: 33.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+    overflow: hidden;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 5px 45px rgba(0,0,0,0.1);
+  }
+  
+  .Advice{
+      width: 30vw;
+      height: 30vh;
+      color: white ;
+      align-items: center;
+      font-weight: lighter ;
+  } 
+
+ 
+  
+  .Heading{
+     color: hsl(150, 100%, 66%);
+     letter-spacing: 3px;
+     font-weight: 0px;
+  }
+
+  .Icon{
+      width: 33vw;
+      height: 15vh;
+      color: white ;
+      align-items: center;
+      font-weight: lighter ;
+  }
+  
+  .Button{
+     display: flex;
+     justify-content: center;
+     background-color: hsl(150, 100%, 66%);
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     position: relative;
+     top: 23vh ;
+     left: 48vw;
+  }
+
+  .Button:hover{
+    background-color: hsl(150, 100%, 66%);
+    box-shadow: 0 0 10px hsl(150, 100%, 66%) ,
+                0 0 50px hsl(150, 100%, 66%) ,
+                0 0 100px hsl(150, 100%, 66%) ;
+  }
+  
+  .button{
+    background-color : hsl(150, 100%, 66%);
+    border: none;
+    position: absolute;
+    align-self: center;
+  }
+
+  .Footer {
+    color: white;
+    letter-spacing: 2px;
+    font-style: italic;
+    align-self: center;
+    text-align: center;
+    position: relative;
+    top: 200px;
+  }
+
+  
+
+   
+
+    
+
+    
+  
