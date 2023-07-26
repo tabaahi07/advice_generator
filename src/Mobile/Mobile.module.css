@@ -1,0 +1,73 @@
+.Mobile{
+  background-color: transparent;
+}
+
+.Container {
+  width: 80vw;
+  height: 40vh;
+  border-radius: 20px ;
+  margin: 350px 10px 10px 10px  ;
+  padding: 100px 70px 40px 70px  ;
+  display: grid ;
+  grid-template-rows: 600px  auto ;
+  background-color: hsl(217, 19%, 24%);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  overflow: hidden ;
+}
+
+.Content{
+  display: grid ;
+  justify-content: center ;
+  align-items: center ;
+  grid-template-rows: auto ;
+}
+
+.Heading{
+  font-size: 40px ;
+  font-weight: 300 ;
+  letter-spacing: 2px ;
+  color: hsl(150, 91%, 67%) ;
+}
+
+.Advice{
+  align-items: start ;
+  letter-spacing: 10px ;
+  font-size: 50px ;
+  color: white ;
+}
+
+.Icon{
+   width: 100% ;
+}
+
+.Button{
+  width: 120px ;
+  height: 120px ;
+  background-color: hsl(150, 91%, 67%) ;
+  border-radius: 50% ;
+  position:relative ;
+  left: 400px ;
+  top: -60px ;
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+}
+
+.Button button{
+  background-color: transparent ;
+  border: none ;
+}
+
+.Footer{
+  color: white ;
+  position: absolute ;
+  left: 320px ;
+  top: 1500px ;
+  font-size: 40px ;
+}
+
+
+
+
+
